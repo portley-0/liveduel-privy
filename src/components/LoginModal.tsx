@@ -12,7 +12,7 @@ export default function LoginModal() {
   const { googleLogin } = useGoogleLogin();
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-[#00001E] rounded shadow-md min-h-screen flex flex-col">
+    <div className="max-w-md mx-auto p-6 bg-[#00001E] shadow-md min-h-screen flex flex-col">
       <div className="flex flex-col items-center mt-2 mb-10">
         <span className="text-white text-2xl font-semibold">Welcome to</span>
         <img
