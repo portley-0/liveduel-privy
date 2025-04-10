@@ -39,7 +39,7 @@ export default function LoginWithEmail({ onBack }: LoginWithEmailProps) {
         placeholder="Enter your email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        className="w-full text-white p-2 border-2 rounded mb-4 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-blue-500 bg-[#324155]"
+        className="w-full text-white p-2 border-2 border-gray-300 rounded mb-4 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-blue-500 bg-[#324155]"
       />
       <button
         onClick={handleSendCode}
@@ -53,7 +53,7 @@ export default function LoginWithEmail({ onBack }: LoginWithEmailProps) {
         placeholder="Enter OTP code"
         value={code}
         onChange={(e) => setCode(e.target.value)}
-        className="w-full text-white p-2 border-2 rounded mb-4 mt-4 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-blue-500 bg-[#324155]"
+        className="w-full text-white p-2 border-2 border-gray-300 rounded mb-4 mt-4 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-blue-500 bg-[#324155]"
       />
       <button
         onClick={handleLoginWithCode}
