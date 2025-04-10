@@ -8,7 +8,7 @@ export function useWalletLogin() {
     if (!ready || authenticated) return;
     login({
       loginMethods: ["wallet"],
-      walletChainType: "ethereum-and-solana",
+      walletChainType: "ethereum-only",
       disableSignup: false,
     });
   };
