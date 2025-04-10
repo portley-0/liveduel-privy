@@ -1,7 +1,7 @@
 import { useLoginWithOAuth } from "@privy-io/react-auth";
 
 export default function LoginWithOAuth() {
-  const { state, loading, initOAuth } = useLoginWithOAuth();
+  const { loading, initOAuth } = useLoginWithOAuth();
 
   const handleLogin = async () => {
     try {
