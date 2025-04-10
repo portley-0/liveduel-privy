@@ -40,7 +40,6 @@ root.render(
         defaultChain: avalancheFuji,
         supportedChains: [avalancheFuji],
         appearance: {
-          accentColor: "#2563EB",
           theme: '#1E293C',
           showWalletLoginFirst: false,
           logo: "Liveduel-Logo.png",

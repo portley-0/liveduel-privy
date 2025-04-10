@@ -9,7 +9,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="w-full min-h-screen">
       <LoginModal />
     </div>
   );
