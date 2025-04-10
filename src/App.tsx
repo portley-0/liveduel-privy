@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { usePrivy } from "@privy-io/react-auth";
 import LoginModal from "./components/LoginModal";
 
