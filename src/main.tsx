@@ -42,7 +42,7 @@ root.render(
         appearance: {
           theme: '#1E293C',
           showWalletLoginFirst: false,
-          logo: "Liveduel-Logo.png",
+          logo: "/Liveduel-Logo.png",
           walletChainType: "ethereum-only",  
           walletList: [
             "detected_ethereum_wallets",
