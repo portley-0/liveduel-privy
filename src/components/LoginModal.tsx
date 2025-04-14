@@ -36,21 +36,21 @@ export default function LoginModal() {
           <div className="flex flex-col space-y-4 w-full">
             <button
               onClick={() => setShowEmailLogin(true)}
-              className="w-full flex items-center justify-center gap-2 rounded-full bg-[#1E293C] text-gray-300 font-semibold border-2 border-gray-300 hover:border-blue-500 focus:border-transparent py-3 px-6 hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full flex items-center justify-center gap-2 rounded-full bg-[#1E293C] text-gray-300 font-semibold border-2 border-gray-300 hover:border-blue-500 focus:border-transparent py-3 px-6 hover:opacity-80 focus:outline-none "
             >
               <MdOutlineMailOutline size={20} />
               Continue with Email
             </button>
             <button
               onClick={googleLogin}
-              className="w-full flex items-center justify-center gap-2 rounded-full bg-[#1E293C] text-gray-300 font-semibold border-2 border-gray-300 hover:border-blue-500 focus:border-transparent py-3 px-6 hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full flex items-center justify-center gap-2 rounded-full bg-[#1E293C] text-gray-300 font-semibold border-2 border-gray-300 hover:border-blue-500 focus:border-transparent py-3 px-6 hover:opacity-80 focus:outline-none "
             >
               <FcGoogle size={20} />
               Continue with Google
             </button>
             <button
               onClick={walletLogin}
-              className="w-full flex items-center justify-center gap-2 rounded-full bg-[#1E293C] text-gray-300 font-semibold border-2 border-gray-300 hover:border-blue-500 focus:border-transparent py-3 px-6 hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full flex items-center justify-center gap-2 rounded-full bg-[#1E293C] text-gray-300 font-semibold border-2 border-gray-300 hover:border-blue-500 focus:border-transparent py-3 px-6 hover:opacity-80 focus:outline-none "
             >
               <BiSolidWallet size={20} />
               Continue with Wallet
