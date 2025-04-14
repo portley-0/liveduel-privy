@@ -35,7 +35,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <PrivyProvider
-      appId="cm935vklg01mhla0mlm1x4lf4"
+      appId="cm9hex1d0018sjs0m6lw158w8"
       config={{
         defaultChain: avalancheFuji,
         supportedChains: [avalancheFuji],
