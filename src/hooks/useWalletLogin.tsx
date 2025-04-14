@@ -1,15 +1,12 @@
-import { usePrivy, useLogin } from "@privy-io/react-auth";
+import { usePrivy } from "@privy-io/react-auth";
 
 export function useWalletLogin() {
-  const { ready } = usePrivy();
-  const { login } = useLogin();
+  const { ready, connectWallet } = usePrivy();
 
   const walletLogin = () => {
     if (!ready ) return;
-    login({
-      loginMethods: ["wallet"],
+    connectWallet({
       walletChainType: "ethereum-only",
-      disableSignup: false,
     });
   };
 
