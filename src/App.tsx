@@ -2,7 +2,11 @@ import { usePrivy } from "@privy-io/react-auth";
 import LoginModal from "./components/LoginModal";
 
 function App() {
-  const { ready } = usePrivy();
+  const { ready, authenticated, user } = usePrivy();
+
+  if (authenticated) {
+    console.log(user);
+  }
 
   if (!ready) {
     return (
